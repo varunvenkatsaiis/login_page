@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    display: flex;
+    width: 50%;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 1px solid white;
+    box-shadow: 1.2px 1.2px 0.48px rgb(151, 142, 142);
+
+
+}
+.right {
+    padding-top: 8.4em;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 0.24em;
+    padding-right: 0.24em;
+    font-weight: 400;  
+    color: #404040; 
+    font-size: small;
+}
+h1{
+    font-weight: 400;
+    width: 75%;
+    color: #F8F8F8;
+    margin-bottom: 0em;
+}
+h2{
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+}
+h1 strong{
+    font-weight: 900;
+}
+.left{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 12em;
+    text-align: center;
+    background-color: brown;
+    background-image:url(dark-ribs.jpg);
+    background-size: cover;  /* this ensures the image is properly covered the background */
+
+}
+.left  p{
+    color: #F18119;
+}
+.top-text{
+    order: -1;
+    margin-top: 0em;
+    font-size: small;
+    color: linear-gradient(to left, #ff713b, #ffa51d);
+   border-top: 2px solid #ff713b;
+}
+.left h1{
+    margin-top: 4.8em;
+}
+.inpt{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0.48em;
+    width: 64%;
+}
+.fine-print{
+    font-size: xx-small;
+    width: 50%;
+    margin:auto;
+    margin-top: 0.24em;
+}
+.name , .email , a{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.24em;
+}
+a{
+    background: linear-gradient(to left, #ff713b, #ffa51d);
+    display: inline-block;
+    width: 64%;
+    padding: 0.48em;
+    border-radius:4.8px;
+    color: white;
+    text-decoration: none;
+    transition: 500ms;
+}
+a:hover{
+    background-color: rgb(236, 181, 181);
+}
+h2 + p{
+    color: #F18119;
+}
